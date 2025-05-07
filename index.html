@@ -4,130 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMW 404 Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-                <div><img src="Icons/BMW Logo.svg" alt="BMW Logo">
-                <ul>
-                    <li>All Models</li>
-                    <li>Electric</li>
-                    <li>Build Your Own</li>
-                    <li>Shop Online</li>
-                    <li>Offers</li>
-                </ul></div>
-                <div class="icons">
-                    <ul><li><img src="Icons/Location Icon.svg" alt=""></li>
-                    <li><img src="Icons/Account Icon.svg" alt=""></li>
-                    <li><img src="Icons/Search Icon.svg" alt=""></li></ul>
+    <div class="hero-image-wrapper">
+        <header>
+            <nav class="nav" aria-label="Main Navigation">
+                <div class="menu">
+                    <ul class="main-menu">
+                        <li class="logo-li">
+                            <a href="#" aria-label="BMW Home">
+                                <img src="Icons/BMW Logo.svg" alt="BMW Logo" class="bmw-logo">
+                            </a>
+                        </li>
+                        <li><a href="#">All Models</a></li>
+                        <li><a href="#">Electric</a></li>
+                        <li><a href="#">Build Your Own</a></li>
+                        <li><a href="#">Shop Online</a></li>
+                        <li><a href="#">Offers</a></li>
+                    </ul>
+                    <div class="icons">
+                        <ul>
+                            <li><a href="#" aria-label="Location"><img src="Icons/Location Icon.svg" alt="Location"></a></li>
+                            <li><a href="#" aria-label="Account"><img src="Icons/Account Icon.svg" alt="Account"></a></li>
+                            <li><a href="#" aria-label="Search"><img src="Icons/Search Icon.svg" alt="Search"></a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <h1>404</h1>
-        <p>The page you’re looking for could not be found</p>
-        <button>To the homepage</button>
-        <img src="Hero Image.webp" alt="BMW ">
-    </main>
-    <section>
+            </nav>
+        </header>
+        <main>
+            <h1>404</h1>
+            <p class="not-found">The page you're looking for<br> could not be found</p>
+            <a href="#" class="homepage-btn">To the homepage</a>
+        </main>
+    </div>
+    
+    <section class="quick-links-section">
         <div class="quick-links-box">
-            <div>
+            <div class="links-container">
                 <h2>Quick links</h2>
-                <div>
-                    <a href="#">
-                        <img src="Icons/Test drive icon.svg" alt="">
-                        <p>Request a test drive</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="Icons/Dealer icon.svg" alt="">
-                        <p>Find a BMW dealer</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="Icons/Build icon.svg" alt="">
-                        <p>Build & Price</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="#">
-                        <img src="Icons/Specs icon.svg" alt="">
-                        <p>Specs</p>
-                    </a>
+                <div class="quick-links-row">
+                    <div class="quick-link-item">
+                        <a href="#">
+                            <img src="Icons/Test drive icon.svg" alt="Test drive">
+                            <p>Request a test drive</p>
+                        </a>
+                    </div>
+                    <div class="quick-link-item">
+                        <a href="#">
+                            <img src="Icons/Dealer icon.svg" alt="Dealer">
+                            <p>Find a BMW dealer</p>
+                        </a>
+                    </div>
+                    <div class="quick-link-item">
+                        <a href="#">
+                            <img src="Icons/Build icon.svg" alt="Build">
+                            <p>Build & Price</p>
+                        </a>
+                    </div>
+                    <div class="quick-link-item">
+                        <a href="#">
+                            <img src="Icons/Specs icon.svg" alt="Specs">
+                            <p>Specs</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="contact-box">
-                <h2>CAN’T FIND WHAT YOU’RE LOOKING FOR?</h2>
-                <div>
-                    <p>For Product Related Questions <br>Contact our BMW Hotline:</p>
-                    <p>1-200-10029</p>
-                    <p>contact@bmw.com</p>
-                </div>
-                <div>
-                    <p>For BMW i Related Questions <br>Contact our BMW i Concierge:</p>
-                    <p>1-207-10019</p>
-                    <p>bmwiconcierge@bmw.com</p>
+                <h2>CAN'T FIND WHAT YOU'RE LOOKING FOR?</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <p class="contact-title">For Product Related Questions <br>Contact our BMW Hotline:</p>
+                        <p class="phone">1-200-10029</p>
+                        <p class="email"><a href="mailto:contact@bmw.com">contact@bmw.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <p class="contact-title">For BMW i Related Questions <br>Contact our BMW i Concierge:</p>
+                        <p class="phone">1-207-10019</p>
+                        <p class="email"><a href="mailto:bmwiconcierge@bmw.com">bmwiconcierge@bmw.com</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <footer>
-        <div class="menu-container">
-            <div class="menu-1">
-                <ul>
-                    <li>CONTACT</li>
-                    <li><a href="#">Customer Support</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Find a Dealer</a></li>
-                    <li><a href="#">Contact BMW Finance</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>QUICK LINKS</li>
-                    <li><a href="#">Request a Test Drive</a></li>
-                    <li><a href="#">BMW Safety Recalls</a></li>
-                    <li><a href="#">Reserve Online</a></li>
-                    <li><a href="#">Book a Service</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>EXPERIENCE BMW</li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">BMW i</a></li>
-                    <li><a href="#">BMW X Range</a></li>
-                    <li><a href="#">BMW Connected Drive</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>LEGAL</li>
-                    <li><a href="#">BMW Group Privacy Policy</a></li>
-                    <li><a href="#">Purchasing Conditions</a></li>
-                </ul>
+        <div class="footer-content">
+            <div class="footer-menus">
+                <div class="footer-menu">
+                    <h3>CONTACT</h3>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Find a Dealer</a></li>
+                        <li><a href="#">Contact BMW Finance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#">Request a Test Drive</a></li>
+                        <li><a href="#">BMW Safety Recalls</a></li>
+                        <li><a href="#">Reserve Online</a></li>
+                        <li><a href="#">Book a Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>EXPERIENCE BMW</h3>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">BMW i</a></li>
+                        <li><a href="#">BMW X Range</a></li>
+                        <li><a href="#">BMW Connected Drive</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li><a href="#">BMW Group Privacy Policy</a></li>
+                        <li><a href="#">Purchasing Conditions</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="social-icons">
                 <ul>
-                    <li><img src="Social media icons/Facebook.svg" alt=""></li>
-                    <li><img src="Social media icons/x.svg" alt=""></li>
-                    <li><img src="Social media icons/instagram.svg" alt=""></li>
-                    <li><img src="Social media icons/youtube.svg" alt=""></li>
-                    <li><img src="Social media icons/Linkedin.svg" alt=""></li>
+                    <li><a href="#"><img src="Social media icons/Facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="Social media icons/x.svg" alt="X"></a></li>
+                    <li><a href="#"><img src="Social media icons/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="Social media icons/youtube.svg" alt="YouTube"></a></li>
+                    <li><a href="#"><img src="Social media icons/Linkedin.svg" alt="LinkedIn"></a></li>
                 </ul>
             </div>
         </div>
-        <div>
-            <div>&#169 BMW</div>
-            <div>
+        <div class="footer-bottom">
+            <div class="copyright">© BMW</div>
+            <div class="footer-links">
                 <ul>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
-                    <li>Terms & Conditions</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
                 </ul>
             </div>
         </div>
